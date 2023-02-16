@@ -1,0 +1,68 @@
+@import url(../vendor/normalize.css);
+
+.footer {
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+}
+
+.footer__content {
+  padding-top: 60px;
+  padding-bottom: 108px;
+  padding-right: 100px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  height: 21px;
+  width: 116px;
+  display: flex;
+  padding-left: 80px;
+}
+
+.footer__column {
+  padding-right: 100px;
+}
+
+.footer__social-heading {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.footer__list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer__list-item {
+  row-gap: 16px;
+}
+
+.footer__social-icon {
+  height: 16px;
+  width: 16px;
+}
+
+.footer__social-link {
+  color: #fff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__copyright {
+  color: #fff;
+  padding-bottom: 60px;
+  padding-left: 80px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}

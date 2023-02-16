@@ -1,0 +1,58 @@
+@import url(../vendor/normalize.css);
+
+.about {
+  position: relative;
+  background-color: #0a2850;
+  overflow: hidden;
+  display: flex;
+  z-index: 1;
+}
+
+.about__title {
+  max-width: 251px;
+  padding-top: 100px;
+  padding-left: 80px;
+  color: #fff;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  position: absolute;
+  z-index: 3;
+  display: flex;
+}
+
+.about__content {
+  max-width: 660px;
+  display: flex;
+  margin: 119px 80px 173px auto;
+  flex-direction: column;
+  row-gap: 20px;
+  color: #fff;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.about__paragraph {
+  row-gap: 20px;
+}
+
+.about__circle {
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  z-index: 0;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+}
+
+.about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out 0s infinite;
+  z-index: 1;
+}
