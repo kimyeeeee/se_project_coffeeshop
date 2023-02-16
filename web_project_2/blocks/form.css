@@ -9,7 +9,6 @@
 }
 
 .form__label {
-  margin-bottom: 8px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
