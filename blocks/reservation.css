@@ -5,11 +5,12 @@
   background-image: url(../images/background_reservation.svg);
   background-size: cover;
   padding: 100px 80px 100px;
+  margin-left: 0;
+  margin-right: 0;
 }
 .reservation__title {
   display: flex;
   justify-content: center;
-  padding-top: 100px;
   padding-bottom: 80px;
   font-family: Inter;
   font-style: normal;
