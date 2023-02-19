@@ -74,13 +74,15 @@
 }
 
 
-.header__address {
+.header__paragraph {
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 
